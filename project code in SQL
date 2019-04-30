@@ -1,0 +1,45 @@
+❖ Extract data from SQL work space in Udacity using the following queries:
+1. To extract data from table city_data:
+select *
+from city_data;
+
+To extract data from table city_list:
+select *
+from city_list;
+
+3. To extract data from table global_data:
+select *
+from global_data;
+
+❖ Downloads the CVS and explore the data using EXCEL then choose Riyadh as the
+big city near me.
+❖ Selected Riyadh city:
+1. To extract Riyadh city data from city_data table I use the following query in SQL work
+space in Udacity
+select *
+from city_data
+where city like 'Riyadh';
+
+❖ Calculated the Moving average for both Riyadh city and global temperatures in
+EXCEL for 7 years .
+Using the following formula:
+For city MA = AVERAGE (D2:D8) then drag down to all cells.
+For global MA = AVERAGE (G2:G8) then drag down to all cells.
+
+The reason of using the MA is to smooth the line and make it more easy to read.
+
+❖ Create a line chart using Excel.
+
+❖ Observation based on line chart.
+Similarities:
+1. Both Riyadh city’s temperatures and global temperatures are increasing and becoming
+more hotter over the years.
+2. Both Riyadh city and global temperatures is consistently increasing over the years.
+3. Both Riyadh city and global temperatures had their highest average temperatures in the
+21 century. Riyadh city average temperatures reached 27.78 in 2013 and global average
+temperatures reached 9.83 in 2015.
+Differences:
+1. the increasing in temperatures for Riyadh city is 0.21 % and for Global is
+0.18 so Riyadh temperatures is increasing more than global temperatures.
+2. Overall Riyadh city average temperatures is much higher than the global
+average.
