@@ -5,7 +5,7 @@ we will analyze local and global temperature data and compare the temperature tr
 
 Also, in This project we will do the following steps:
 
-Extract data from a database using a SQL query
+Extract data from a database using a SQL query ( we have three data sets : city_data , city_list ,global_data )
 Calculate a moving average in a spreadsheet
 Create a line chart in a spreadsheet
 
